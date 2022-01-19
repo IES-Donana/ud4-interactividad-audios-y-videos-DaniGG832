@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ej6</title>
+  <style>
+    video {
+   border: 5px groove darkblue;
+   padding: 30px;
+   box-shadow: 0 0 4px green;
+   
+}
+video::-webkit-media-controls-panel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 20px;
+    background-color: white;
+    
+}
+
+  </style>
+</head>
+<body>
+
+  <video width="100%" height="100%" autoplay muted loop>
+      <source src="media/testimonio.mp4">
+  </video>
+  <video  width="400px"  controls>
+    <source src="media/testimonio.mp4">
+  </video>
+</body>
+</html>
